@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default props => (
-    <div className='row'>
+    <ul className='nav nav-tabs'>
         {props.children}
-    </div>
+    </ul>
 )
