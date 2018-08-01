@@ -22,6 +22,10 @@ export function update(values) {
     return submit(values, 'put')
 }
 
+export function remove(values) {
+    return submit(values, 'delete')
+}
+
 /* 
     redux-multi + redux-thunh = <3
     Usamos o poder o redux-thunk para retornar objetos de ação quando temos
@@ -47,6 +51,14 @@ export function showUpdate(billingCycle) {
     return [
         showTabs('tabUpdate'),
         seletecTab('tabUpdate'),
+        initialize('billingCycleForm', billingCycle)
+    ]
+}
+
+export function showDelete(billingCycle) {
+    return [
+        showTabs('tabDelete'),
+        seletecTab('tabDelete'),
         initialize('billingCycleForm', billingCycle)
     ]
 }
