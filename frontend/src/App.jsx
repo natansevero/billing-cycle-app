@@ -6,14 +6,12 @@ import SideBar from './common/template/sideBar'
 import Footer from './common/template/footer'
 import Messages from './common/msg/messages'
 
-import Routes from './Routes'
-
 export default props => (
     <div className='wrapper'>
         <Header />
         <SideBar />
         <div className='content-wrapper'>
-            <Routes />
+            {props.children}
         </div>
         <Footer />
         <Messages />
