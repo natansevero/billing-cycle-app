@@ -1,6 +1,6 @@
 # Billinng Cycle application
 
-A application to billing cycle control
+A application to billing cycle control built with React and Redux in the frontend and with Node.js and Express.js in the backend
 
 # To run:
 
