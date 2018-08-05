@@ -4,16 +4,18 @@
   "description": "",
   "main": "src/loader.js",
   "scripts": {
-    "dev": "nodemon src/loader.js",
+    "dev": "nodemon",
     "production": "pm2 start src/loader.js --name my-money-backend"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-query-int": "^1.0.1",
+    "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.7.0",
     "mongoose-paginate": "^5.0.3",
