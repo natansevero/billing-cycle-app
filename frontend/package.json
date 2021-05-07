@@ -24,7 +24,7 @@
     "file-loader": "0.9.0",
     "font-awesome": "4.7.0",
     "ionicons": "3.0.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.21",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "react-redux": "4.4.6",
